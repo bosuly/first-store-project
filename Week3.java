@@ -14,10 +14,10 @@ public class Week3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner input=new Scanner(System.in);
+     Scanner input=new Scanner(System.in);
           System.out.println(" WELOME TO ULS GRAB BAR");
        float total=0,h,v,gay,ga,bv=0,totals=0,add=0;
-        String again,m;  
+        String again,m,n;  
          int r=100,s=150,t=200,b=220,g=250;
         do{
             float k,currenttotal=0;
@@ -137,11 +137,11 @@ public class Week3 {
                     } else {
                         System.out.println("NOT VALID");}
                     System.out.println("ENTER R IF REPEAT C IF CONTINUE");
-                    if(m.equalsIgnoreCase("r")){
+                                          n=input.next();
+                    if(n.equalsIgnoreCase("r")){
                           System.out.println("REPEAT");
-                      m=input.next();
                       add=currentTotals;}
-               }while(m.equalsIgnoreCase("R"));
+               }while(n.equalsIgnoreCase("R"));
                     totals += currentTotals;  {
                double u;
               if(totals>=500){
@@ -176,4 +176,5 @@ do{
     }
 }
     
+      
     
