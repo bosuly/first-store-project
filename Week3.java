@@ -138,9 +138,9 @@ public class Week3 {
                         System.out.println("NOT VALID");}
                     System.out.println("ENTER R IF REPEAT C IF CONTINUE");
                     if(m.equalsIgnoreCase("r")){
-                          System.out.println("REPEAT");}
+                          System.out.println("REPEAT");
                       m=input.next();
-                      add=currentTotals;
+                      add=currentTotals;}
                }while(m.equalsIgnoreCase("R"));
                     totals += currentTotals;  {
                double u;
